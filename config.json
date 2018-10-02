@@ -1,0 +1,26 @@
+{
+  "app": {
+    "port": "1117"
+  },
+  "mssql": {
+    "host": "192.168.10.221",
+    "user": "apiadmin",
+    "password": "",
+    "database": ""
+  },
+
+  "ldap": {
+    "url": "ldap://192.168.10.228",
+    "dn": "DC=cc, DC=local",
+    "user": ""
+  },
+
+  "jwt": {
+    "secret": "secretcode"
+  },
+
+  "mailgun": {
+    "apikey": "key-6ca51ccb6c9d923130e133176e8764e9",
+    "domain": ".com"
+  }
+}
